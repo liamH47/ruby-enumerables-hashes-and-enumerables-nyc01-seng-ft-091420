@@ -5,11 +5,7 @@
 # }
 
 def happy_birthday(birthday_kids)
-  winner = ""
-passengers.each do |suite, name|
-  if suite == :suite_a && name.start_with?("A")
-    winner = name
+  birthday_kids.each do |kids_name|
+    puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
   end
-end
-puts winner
 end
